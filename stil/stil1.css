@@ -64,6 +64,11 @@ body
     margin: 2% 0;
     box-sizing: border-box;
     background: #d0e8f2;
+    transition: 0.5s;
+}
+.orta:hover {
+    transform: scale(1.2);
+    z-index: 2;
 }
 .orta a {text-decoration: none;}
 .orta .içerik
@@ -104,7 +109,7 @@ body
 
         .orta {width: 95%;}
     .menu {text-align: center;
-        margin-left: -11%;
+        margin-left: -9%;
        
 }
     .menu li {
