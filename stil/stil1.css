@@ -139,6 +139,24 @@ ozel_ic {
 .orta img {
     width: 70%;
 }
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d0e8f2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #79a3b1;
+    border-radius: 17px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #456268;
+    ;
+    border-radius: 17px;
+}
 
 @media only screen and (max-width:992px) {
     .orta-alan {
